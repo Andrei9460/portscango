@@ -8,12 +8,14 @@ CLI-инструмент для TCP и UDP сканирования портов
 git clone https://github.com/Andrei9460/portscango
 cd portscango
 go build -o portscan main.go
+```
 
 ## Примеры использования
+
 ```
-./portscan -host scanme.nmap.org -range 20-80 -tcp
+./portscan -host 127.0.0.1 -range 20-80 -tcp
 ./portscan -host 127.0.0.1 -range 53-53 -udp
-./portscan -host 192.168.1.1 -range 1-1000 -tcp -udp
+./portscan -host 127.0.0.1 -range 1-1000 -tcp -udp
 ```
 
 | Аргумент | Описание                            |
