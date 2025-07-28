@@ -18,7 +18,8 @@ go build -o portscan main.go
 ./portscan -host 127.0.0.1 -range 53-53 -udp
 ./portscan -host 127.0.0.1 -range 1-9999 -tcp -udp
 ```
-<img width="796" height="119" alt="image" src="https://github.com/user-attachments/assets/1da8b7eb-fc98-43ff-bb6f-1bbe137879c9" />
+<img width="796" height="119" alt="image" src="https://github.com/user-attachments/assets/5ded5679-249b-4c66-9d86-b10e51c9436b" />
+
 
 
 
