@@ -7,6 +7,7 @@ CLI-инструмент для TCP и UDP сканирования портов
 ```bash
 git clone https://github.com/Andrei9460/portscango
 cd portscango
+go mod init portscango
 go build -o portscan main.go
 ```
 
